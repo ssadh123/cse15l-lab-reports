@@ -35,6 +35,10 @@ ls command without arugment
 
 ls with directory path as argument 
 
+![Image](catnoargument.png)
+
+
+
 - Since I had previously used the command cd lecture1, then using ls lecture1 casuses an error.
 
 ![Image](LSWITHOUTCD.png)
@@ -52,6 +56,8 @@ ls README with and without cd
 - ls command encountered an error because it couldn't find a file or directory named "README" in the current working directory.
 
 - Output README - indicates that a file or directory with the name "README" is present in the current working directory.
+
+  
 
 
 
