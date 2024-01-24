@@ -1,7 +1,7 @@
 
 ![Image](cdnoarguments.png)
 
-Using cd Command with No Arguments:
+Using `cd` Command with No Arguments:
 
 -When I type cd without any arguments, it takes me to the home directory.
 
