@@ -66,14 +66,19 @@ Executing `ls` with a file path as an argument, without changing into the corres
 Executing `cat` with no arguments displays the contents of the standard input. In this case, since no file is specified, it waits for user input. To exit, press `Ctrl + D`.
 
 
-
+![Image](catdirectory)
 
 **`cat` with path to directory as an argument** 
 
 When attempting to use `cat` with a path to a directory, in this case, "messages," the command produces an error. The error message "cat: messages: Is a directory" indicates that `cat` recognizes "messages" as a directory, and it is not designed to display the contents of directories. The `cat` command is intended for viewing the contents of files, not directories.
 
+![Image](catmessagesfile)
 
 **`cat` with path to file as an argument**
+
+In this example, the `cat` command is utilized with a path to a specific file, "es-mx.txt," located within the "messages" directory. The command successfully displays the contents of the specified file. The output, which is "¡Hola Mundo!" in this case, represents the content of the "es-mx.txt" file.
+
+The sentence "//we have to give a file in the current directory the cat command or any other command." indicates that this command specifically requires a file path as an argument. The "messages" directory is part of the current working directory, and by providing the correct file path, we instruct `cat` to read and output the content of the designated file.
 
 
 
