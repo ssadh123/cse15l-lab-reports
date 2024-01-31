@@ -59,6 +59,17 @@ Executing `ls` with a file path as an argument, without changing into the corres
 
 - Output README - indicates that a file or directory with the name "README" is present in the current working directory.
 
+![Image](catwithnoargument)
+
+** `cat` with no argument**
+
+Executing `cat` with no arguments displays the contents of the standard input. In this case, since no file is specified, it waits for user input. To exit, press `Ctrl + D`.
+
+
+
+
+
+
 
 
 
