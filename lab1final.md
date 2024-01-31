@@ -59,7 +59,7 @@ Executing `ls` with a file path as an argument, without changing into the corres
 
 - Output README - indicates that a file or directory with the name "README" is present in the current working directory.
 
-![Image](catwithnoargument.png)
+![Image](catnoargument.png)
 
 **`cat` with no argument**
 
