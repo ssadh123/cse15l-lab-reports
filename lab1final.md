@@ -1,61 +1,66 @@
 
 ![Image](cdnoarguments.png)
 
-Using `cd` Command with No Arguments:
+**Using `cd` Command with No Arguments**
 
--When I type cd without any arguments, it takes me to the home directory.
+When employing the `cd` command without any arguments, the system automatically redirects to the home directory. It provides a quick way to return to the default starting point.
 
-Checking Present Working Directory (PWD):
+**Checking Present Working Directory (PWD):**
 
--After running cd, I used the pwd command to verify the current working directory.
-The output /home indicates that I am currently in the /home directory.
+To ensure the successful execution of `cd`, I employed the `pwd` command to confirm the current working directory. The output `/home` signifies that the current location is within the /home directory.
 
 ![Image](cdwithargument.png)
 
-Using cd Command with a Path to a Directory (with argument):
+**Using `cd` Command with a Path to a Directory (with argument)**
 
-- When i type cd lecture1,  I am navigating into the "lecture1" directory.
-
--The output /home/lecture1 indicates that I am currently in the "/home/lecture1" directory.
-
+By utilizing the `cd` command with a specified directory path, I navigated into the "lecture1" directory. The resulting path `/home/lecture1` confirms the successful transition.
 
 ![Image](cdfileargument.png)
 
-Using cd command with a Path to file as an argument:
+**Using `cd` Command with a Path to a File as an Argument**
 
--This is an error because "README" is not a directory.
+An attempt to use the cd command with a file as an argument led to an error. This is because "README" is not a directory, and the `cd` command is designed for navigating into directories, not files.
 
 ![Image](lsnoargument.png)
 
-ls command without arugment 
+**Utilizing `ls` Command without Arguments**
 
-- the output shows the files and directories present in the lecture1 
+Executing the `ls` command without any arguments provides a list of files and directories present in the current working directory, which, in this case, is "lecture1."
 
 ![Image](lsdirectoryaspath.png)
 
-ls with directory path as argument 
+**Using `ls` Command with Directory Path as an Argument**
+
+When applying the `ls` command with a directory path as an argument, it provides an insight into the contents of the specified directory. However, using this command directly after changing into "lecture1" with `cd lecture1` results in an error.
+
+
 
 ![Image](catnoargument.png)
 
+**Combining ls and cat Commands**
 
-
-- Since I had previously used the command cd lecture1, then using ls lecture1 casuses an error.
+Attempting to use `cat` without any arguments, following a previous `cd lecture1` command, results in an error. This is due to not being in the "lecture1" directory.
 
 ![Image](LSWITHOUTCD.png)
 
-ls with directory path as argument without cd 
-
-- this shows us the contents of lecture1 as I did not use cd 
 
 ![Image](lsproperfileaspath.png)
 
+**Using `ls` Command with File as Path**
+
+Executing `ls` with a file path as an argument, without changing into the corresponding directory using `cd`, provides a glimpse into the contents of the specified file.
+
+
 ![Image](LSWITHOUTCD.png)
 
-ls README with and without cd
+**`ls` README with and without `cd`**
 
-- ls command encountered an error because it couldn't find a file or directory named "README" in the current working directory.
+- `ls` command encountered an error because it couldn't find a file or directory named "README" in the current working directory.
 
 - Output README - indicates that a file or directory with the name "README" is present in the current working directory.
+
+
+
 
   
 
