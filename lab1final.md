@@ -59,20 +59,20 @@ Executing `ls` with a file path as an argument, without changing into the corres
 
 - Output README - indicates that a file or directory with the name "README" is present in the current working directory.
 
-![Image](catwithnoargument)
+![Image](catwithnoargument.png)
 
 **`cat` with no argument**
 
 Executing `cat` with no arguments displays the contents of the standard input. In this case, since no file is specified, it waits for user input. To exit, press `Ctrl + D`.
 
 
-![Image](catdirectory)
+![Image](catdirectory.png)
 
 **`cat` with path to directory as an argument** 
 
 When attempting to use `cat` with a path to a directory, in this case, "messages," the command produces an error. The error message "cat: messages: Is a directory" indicates that `cat` recognizes "messages" as a directory, and it is not designed to display the contents of directories. The `cat` command is intended for viewing the contents of files, not directories.
 
-![Image](catmessagesfile)
+![Image](catmessagesfile.png)
 
 **`cat` with path to file as an argument**
 
