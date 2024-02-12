@@ -1,3 +1,6 @@
+# Part 1 - Create ChatServer
+
+
 import java.io.IOException;
 import java.net.URI;
 
@@ -22,6 +25,7 @@ class ChatHandler implements URLHandler {
 }
 
 class ChatServer {
+
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
@@ -34,23 +38,82 @@ class ChatServer {
     }
 }
 
-This code represents a basic chat server that maintains a chat history. 
-Users can add messages to the chat by making requests using the `/add-message` endpoint. 
-The server concatenates the user's name, a colon `:`, the message, and a newline `\n` to form a chat entry. 
-The entire chat history is accessible through the root endpoint `/`. Users can engage in conversations by adding messages,
-and the server keeps track of the entire interaction history
 
-/add-message?s=Hello&user=ssadh at the end of the query adds the string to the array.
+This code represents a basic search engine that operates on an array of strings, simulating a website's content. 
+Users can add strings to the search engine's array using the /add method in the query. 
+The search engine allows for finding strings containing specific keywords within the array. 
+It provides a straightforward mechanism to build and manipulate the content pool for effective searching and retrieval of relevant information.
+
+
+**Scenario 1: Adding a message "Hello" from user "ssadh"**
+
+
+
 
 ![Image](addmessage-hello_ssadh.png)
 
 
-/add-message?s=How are you&user=saumya
+
+
+
+**1.Method Called:** The `handleRequest` method in the `ChatHandler` class.
+
+**2.Request URL:** https://0-0-0-0-5000-rt6760veu51l9m9623vfidaqbo.us.edusercontent.com/add-message?s=Hello&user=ssadh
+
+**3.Relevant Arguments:**
+
+`String user`: "ssadh"
+
+`String message`: "Hello"
+
+**4.Relevant Fields:**
+
+`StringBuilder chatHistory`: Initially empty.
+
+**5.Changes in Relevant Fields:**
+
+`chatHistory becomes` "ssadh: Hello\n".
+
+
+
+
+**Scenario 2: Adding a message "How are you" from user "saumya"** 
+
+
 
 ![Image](howareyou_saumya.png)
 
 
-**Discussing the Code**
+**1.Method Called:** The handleRequest method in the ChatHandler class.
+
+**2.Request URL:** https://0-0-0-0-5000-rt6760veu51l9m9623vfidaqbo.us.edusercontent.com/add-message?s=How%20are%20you&user=saumya
+
+**3.Relevant Arguments:**
+
+`String user:` "saumya"
+
+`String message:` "How are you"
+
+**4.Relevant Fields:**
+
+`StringBuilder chatHistory:` "ssadh: Hello\n".
+
+**5.Changes in Relevant Fields:**
+
+`chatHistory` becomes "ssadh: Hello\nsaumya: How are you\n".
+
+
+# Part 2 - Using the Command Line 
+
+
+
+
+
+
+
+
+
+
 
 
 
