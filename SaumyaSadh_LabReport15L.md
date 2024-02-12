@@ -1,4 +1,5 @@
 # Part 1 - Create ChatServer
+&nbsp;
 
 
 import java.io.IOException;
@@ -105,7 +106,14 @@ It provides a straightforward mechanism to build and manipulate the content pool
 `chatHistory` becomes "ssadh: Hello\nsaumya: How are you\n".
 
 
-# Part 2 - Using the Command Line 
+# Part 2 - Using the Command Line
+&nbsp;
+
+
+
+
+
+
 
 
 
