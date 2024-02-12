@@ -2,9 +2,12 @@
 
 
 import java.io.IOException;
+
 import java.net.URI;
 
+
 class ChatHandler implements URLHandler {
+    
     StringBuilder chatHistory = new StringBuilder();
 
     public String handleRequest(URI url) {
@@ -25,18 +28,19 @@ class ChatHandler implements URLHandler {
 }
 
 class ChatServer {
-
+    
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
             return;
+        
         }
 
         int port = Integer.parseInt(args[0]);
-
         Server.start(port, new ChatHandler());
     }
 }
+
 
 
 This code represents a basic search engine that operates on an array of strings, simulating a website's content. 
@@ -45,13 +49,11 @@ The search engine allows for finding strings containing specific keywords within
 It provides a straightforward mechanism to build and manipulate the content pool for effective searching and retrieval of relevant information.
 
 
-**Scenario 1: Adding a message "Hello" from user "ssadh"**
+### **Scenario 1: Adding a message "Hello" from user "ssadh"**
 
-
-
-
+&nbsp;
 ![Image](addmessage-hello_ssadh.png)
-
+&nbsp;
 
 
 
@@ -77,11 +79,11 @@ It provides a straightforward mechanism to build and manipulate the content pool
 
 
 
-**Scenario 2: Adding a message "How are you" from user "saumya"** 
+### **Scenario 2: Adding a message "How are you" from user "saumya"** 
 
-
-
+&nbsp;
 ![Image](howareyou_saumya.png)
+&nbsp;
 
 
 **1.Method Called:** The handleRequest method in the ChatHandler class.
@@ -104,6 +106,31 @@ It provides a straightforward mechanism to build and manipulate the content pool
 
 
 # Part 2 - Using the Command Line 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Part 3 - Week 2 & 3 Lab 
+
+In the Week 2 and Week 3 labs, I learned to set up and deploy a web server using Visual Studio Code, run it locally and on ieng6. I also explored basic URL concepts and used `curl` to access web pages from the command line. The hands-on exercises, including implementing a simple web server (`NumberServer.java`) and creating a basic "Search Engine" (`SearchEngine.java`), provided a practical understanding of web server fundamentals and URL handling. These are all concepts I did not know before. 
+
+
 
 
 
