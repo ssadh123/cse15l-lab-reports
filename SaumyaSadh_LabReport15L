@@ -36,8 +36,21 @@ class NumberServer {
     }
 }
 
+This code represents a basic chat server that maintains a chat history. 
+Users can add messages to the chat by making requests using the /add-message endpoint. 
+The server concatenates the user's name, a colon ':', the message, and a newline (\n) to form a chat entry. 
+The entire chat history is accessible through the root endpoint (/). Users can engage in conversations by adding messages,
+and the server keeps track of the entire interaction history
 
 
+/add-message?s=Hello&user=ssadh at the end of the query adds the string to the array.
+
+![Image](addmessage-hello_ssadh.png)
+
+
+/add-message?s=How are you&user=saumya
+
+![Image](howareyou_saumya.png)
 
 
 
