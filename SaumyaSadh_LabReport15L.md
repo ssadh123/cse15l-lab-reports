@@ -138,31 +138,6 @@ The absolute path is `/home/linux/ieng6/oce/11/411/ssadh/.ssh/authorized_keys`
 The above image proves that my inputs in the terminal worked as I was not asked for the password upon logging in 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Part 3 - Week 2 & 3 Lab 
 
 In the Week 2 and Week 3 labs, I learned to set up and deploy a web server using Visual Studio Code, run it locally and on ieng6. I also explored basic URL concepts and used `curl` to access web pages from the command line. The hands-on exercises, including implementing a simple web server (`NumberServer.java`) and creating a basic "Search Engine" (`SearchEngine.java`), provided a practical understanding of web server fundamentals and URL handling. These are all concepts I did not know before. 
