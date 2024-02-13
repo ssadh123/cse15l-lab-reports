@@ -54,17 +54,11 @@ static void reverseInPlace(int[] arr) {
 The original issue in the `reverseInPlace` method resulted from overwriting elements directly without preserving their 
 values, leading to data loss and incorrect results, especially after the midpoint of the array. The fix corrects this by:
 
-&nbsp;
-
 **Limiting the loop to half the array length** to ensure each element pair is swapped only once, preventing elements from
 being swapped back to their original positions.
 
-&nbsp;
-
 **Introducing a temporary variable (`temp`)** to hold the value of the current element during the swap, preserving data 
 integrity and ensuring a correct swap.
-
-&nbsp;
 
 **Implementing correct swapping logic** that ensures each element and its counterpart are swapped correctly, allowing the method to accurately reverse the array for any length, thereby maintaining the integrity of the data throughout the process.
 &nbsp;
