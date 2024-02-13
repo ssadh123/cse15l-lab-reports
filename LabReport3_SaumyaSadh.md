@@ -13,10 +13,11 @@ assertArrayEquals(new int[]{3, 2, 1} input2);
 
 ### 2) Input that does not induce failure 
 &nbsp;
+```
 int[] input3 = {1,2,3};
 ArrayExamples.reverseInPlace(input3);
 assertArrayEquals(new int[]{1,2,3} input3);
-
+```
 ### 3) The symptom as output of running the test
 &nbsp;
 
