@@ -70,6 +70,112 @@ integrity and ensuring a correct swap.
 &nbsp;
 # Part 2 - Researching Commands
 
+This we will be exploring the `grep` command in detail. `grep` is a command tool that, given a string and a file, identifies and displays all lines within that file that contain the specified string.
+
+### Command-line Option 1: `grep -w`
+
+**Examples of using it on files and directories**
+
+**Example 1**
+
+input 
+```
+grep -w "search" ./technical/file1.txt
+```
+output 
+```
+search: This is a sample line to search for a specific word.
+```
+**Description:** 
+
+This command searches for the whole word "search" in the file `file1.txt`. The `-w` option ensures that only the exact word "search" is matched, excluding instances where "search" is part of a larger word.
+
+
+**Example 2**
+input
+```
+grep -w "four" technical/911report/chapter-1.txt
+
+```
+output
+```
+
+```
+
+**Description:** (what it is doing and why it is useful) 
+
+
+
+
+### Command-line Option 2: `grep -i`
+
+**Examples of using it on files and directories:**
+
+**Example 1**
+```
+
+```
+
+**Description:** (what it is doing and why it is useful) 
+
+
+**Example 2**
+```
+
+```
+
+**Description:** (what it is doing and why it is useful) 
+
+
+
+
+### Command-line Option 3: `grep -v`
+
+**Examples of using it on files and directories:**
+
+**Example 1**
+
+```
+
+```
+**Description:** (what it is doing and why it is useful) 
+
+**Example 2**
+
+```
+
+```
+
+**Description:** (what it is doing and why it is useful) 
+
+
+
+### Command-line Option 4: `grep -r`
+
+**Examples of using it on files and directories:**
+
+**Example 1**
+```
+
+```
+
+**Description:** (what it is doing and why it is useful) 
+
+
+**Example 2**
+```
+
+```
+
+**Description:** (what it is doing and why it is useful) 
+
+
+
+
+
+
+
+
 
 
 
