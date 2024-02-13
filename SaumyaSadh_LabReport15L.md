@@ -109,6 +109,10 @@ It provides a straightforward mechanism to build and manipulate the content pool
 
 ### 1. The absolute path to the private key for your SSH Key
 
+&nbsp;
+![Image](privateKey.png)
+&nbsp;
+
 
 
 
@@ -116,9 +120,17 @@ It provides a straightforward mechanism to build and manipulate the content pool
 
 ### 2. The absolute path to the public key for your SSH key to log into ieng6
 
+&nbsp;
+![Image](publicKeyFinal.png)
+&nbsp;
+
 
 
 ### 3. Log into ieng6 account without asking for password
+
+&nbsp;
+![Image](nopassword.png)
+&nbsp;
 
 
 
