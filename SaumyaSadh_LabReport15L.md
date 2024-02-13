@@ -1,6 +1,5 @@
 # Part 1 - Create ChatServer
 
-
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -105,14 +104,12 @@ It provides a straightforward mechanism to build and manipulate the content pool
 
 
 # Part 2 - Using the Command Line
-&nbsp;
 
 ### 1. The absolute path to the private key for your SSH Key
 
-&nbsp;
 ![Image](privatekeylab2.png)
-&nbsp;
 
+&nbsp;
 The private key is `id_ed25519` and the absolute path to the key is `/home/.ssh/id_ed25519`
 
 
@@ -120,10 +117,9 @@ The private key is `id_ed25519` and the absolute path to the key is `/home/.ssh/
 
 ### 2. The absolute path to the public key for your SSH key to log into ieng6
 
-&nbsp;
 ![Image](finalpublickeylab2.png)
-&nbsp;
 
+&nbsp;
 The public key is `id_ed25519.pub` and it is stored in file authorized key. 
 The absolute path is `/home/linux/ieng6/oce/11/411/ssadh/.ssh/authorized_keys`
 
@@ -131,11 +127,12 @@ The absolute path is `/home/linux/ieng6/oce/11/411/ssadh/.ssh/authorized_keys`
 
 ### 3. Log into ieng6 account without asking for password
 
-&nbsp;
 ![Image](nopasswordlab2.png)
-&nbsp;
 
+&nbsp;
 The above image proves that my inputs in the terminal worked as I was not asked for the password upon logging in 
+
+
 
 
 # Part 3 - Week 2 & 3 Lab 
