@@ -269,11 +269,20 @@ The `grep -r "Server" ./` command searches for "Server" across all files in the 
 
 **Example 2**
 ```
+[user@sahara ~]$ grep -r "annotations" ./
+./readme.txt:The following annotations are also included:
+./readme.txt:  annotations.
+./readme.txt:the ANC web site)  to merge the standoff  annotations into 
+./license.txt:enhanced with various annotations, which constitutes the
+./annotations.xml:        <annotations>
+./annotations.xml:        </annotations>
 
 ```
 
-**Description:** (what it is doing and why it is useful) 
+**Description:** 
 
+
+The `grep -r "annotations" ./ command` searches all files in the current directory for the term "annotations", listing each occurrence with the file path. This is useful for identifying where annotations are discussed or used, aiding in managing or reviewing annotated content across multiple documents.
 
 **Source:** 
 
