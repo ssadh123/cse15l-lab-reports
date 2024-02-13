@@ -1,12 +1,9 @@
 # Part 1 - Create ChatServer
-&nbsp;
 
 
+```
 import java.io.IOException;
-
 import java.net.URI;
-
-
 class ChatHandler implements URLHandler {
     
     StringBuilder chatHistory = new StringBuilder();
@@ -41,6 +38,7 @@ class ChatServer {
         Server.start(port, new ChatHandler());
     }
 }
+```
 
 
 
@@ -108,6 +106,20 @@ It provides a straightforward mechanism to build and manipulate the content pool
 
 # Part 2 - Using the Command Line
 &nbsp;
+
+### 1. The absolute path to the private key for your SSH Key
+
+
+
+
+
+
+### 2. The absolute path to the public key for your SSH key to log into ieng6
+
+
+
+### 3. Log into ieng6 account without asking for password
+
 
 
 
