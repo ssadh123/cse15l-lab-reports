@@ -50,7 +50,7 @@ static void reverseInPlace(int[] arr) {
 
 ```
 ### Brief Discription of the fix: 
-&nbsp;
+
 The original issue in the `reverseInPlace` method resulted from overwriting elements directly without preserving their 
 values, leading to data loss and incorrect results, especially after the midpoint of the array. The fix corrects this by:
 
