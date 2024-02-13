@@ -121,7 +121,7 @@ It provides a straightforward mechanism to build and manipulate the content pool
 ### 2. The absolute path to the public key for your SSH key to log into ieng6
 
 &nbsp;
-![Image](publicKeyFinal.png)
+![Image](public2.png)
 &nbsp;
 
 
