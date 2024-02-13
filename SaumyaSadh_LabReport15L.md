@@ -113,7 +113,7 @@ It provides a straightforward mechanism to build and manipulate the content pool
 ![Image](privatekeylab2.png)
 &nbsp;
 
-
+The private key is `id_ed25519` and the absolute path to the key is `/home/.ssh/id_ed25519`
 
 
 
@@ -124,6 +124,9 @@ It provides a straightforward mechanism to build and manipulate the content pool
 ![Image](finalpublickeylab2.png)
 &nbsp;
 
+The public key is `id_ed25519.pub` and it is stored in file authorized key. 
+The absolute path is `/home/linux/ieng6/oce/11/411/ssadh/.ssh/authorized_keys`
+
 
 
 ### 3. Log into ieng6 account without asking for password
@@ -131,6 +134,8 @@ It provides a straightforward mechanism to build and manipulate the content pool
 &nbsp;
 ![Image](nopasswordlab2.png)
 &nbsp;
+
+The above image proves that my inputs in the terminal worked as I was not asked for the password upon logging in 
 
 
 
