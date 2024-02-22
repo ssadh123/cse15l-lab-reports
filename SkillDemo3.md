@@ -28,7 +28,7 @@ sort out. txt
 
 ```
 
-##Step 3
+## Step 3
 Find all the lines in all the `.java` files that contain the string `Collections.sort`.
 Store the content of these lines in a file called `sorts.txt`.
 
