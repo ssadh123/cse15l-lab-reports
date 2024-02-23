@@ -5,13 +5,13 @@
 
 ```
 /**
-*This is an error inducing jUnit test 
-*/
+ * This is an error-inducing JUnit test.
+ */
 @Test
 public static void testReverseInPlace() {
-int[] input2 = {1,2,3};
-ArrayExamples.reverseInPlace(input2);
-assertArrayEquals(new int[]{3, 2, 1} input2);
+    int[] input2 = {1, 2, 3};
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{3, 2, 1}, input2);
 }
 
 ```
@@ -21,14 +21,13 @@ assertArrayEquals(new int[]{3, 2, 1} input2);
 &nbsp;
 ```
 /**
-*This is a jUnit test that does not induce an error 
-*/
-
+ * This is a JUnit test that does not induce an error.
+ */
 @Test
 public static void testReverseInPlace() {
-int[] input3 = {1,2,3};
-ArrayExamples.reverseInPlace(input3);
-assertArrayEquals(new int[]{1,2,3} input3);
+    int[] input3 = {1, 2, 3};
+    ArrayExamples.reverseInPlace(input3);
+    assertArrayEquals(new int[]{1, 2, 3}, input3);
 }
 
 ```
