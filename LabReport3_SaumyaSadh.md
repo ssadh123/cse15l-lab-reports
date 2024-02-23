@@ -4,9 +4,15 @@
 &nbsp;
 
 ```
+/**
+*This is an error inducing jUnit test 
+*/
+@Test
+public static void testReverseInPlace() {
 int[] input2 = {1,2,3};
 ArrayExamples.reverseInPlace(input2);
 assertArrayEquals(new int[]{3, 2, 1} input2);
+}
 
 ```
 
@@ -14,9 +20,17 @@ assertArrayEquals(new int[]{3, 2, 1} input2);
 ### 2) Input that does not induce failure 
 &nbsp;
 ```
+/**
+*This is a jUnit test that does not induce an error 
+*/
+
+@Test
+public static void testReverseInPlace() {
 int[] input3 = {1,2,3};
 ArrayExamples.reverseInPlace(input3);
 assertArrayEquals(new int[]{1,2,3} input3);
+}
+
 ```
 ### 3) The symptom as output of running the test
 &nbsp;
@@ -46,6 +60,7 @@ static void reverseInPlace(int[] arr) {
       arr[i] = arr[arr.length - i - 1];
       arr[arr.length - i - 1] = temp;
     }
+}
 
 
 ```
