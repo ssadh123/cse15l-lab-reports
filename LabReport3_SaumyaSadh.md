@@ -43,6 +43,11 @@ public static void testReverseInPlace() {
 **Before Fix**
 
 ```
+/**
+ * Reverses the order of elements in the given integer array in-place.
+ *
+ * @param arr The integer array to be reversed.
+ */
  static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
@@ -53,6 +58,12 @@ public static void testReverseInPlace() {
 
 **After Fix**
 ```
+/**
+ * Reverses the order of elements in the given integer array in-place.
+ *
+ * @param arr The integer array to be reversed.
+ */
+
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length / 2; i += 1) {
       int temp = arr[i];
