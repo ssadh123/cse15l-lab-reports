@@ -13,7 +13,7 @@ In this lab report for Lab 4 - Vim, we will go through a series of steps to impr
 
 ### Step 5
 
-![Image](gitclone_proper.png)
+![Image](gitclone.png)
 ![Image](step5part2.png)
 
 
