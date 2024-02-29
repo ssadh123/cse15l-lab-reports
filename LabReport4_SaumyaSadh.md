@@ -19,7 +19,7 @@ In this lab report for Lab 4 - Vim, we will go through a series of steps to impr
 
 ### Step 6
 
-![Image]{step6_showFail.png);
+![Image](step6_showFail.png);
 
 
 
@@ -33,6 +33,6 @@ In this lab report for Lab 4 - Vim, we will go through a series of steps to impr
 
 ### Step 9
 
-![Image](commit_lab4.png)
+![Image](commit_lab4.png);
 
 ![Image](gitPush_finalstep.png);
