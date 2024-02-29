@@ -6,33 +6,34 @@ In this lab report for Lab 4 - Vim, we will go through a series of steps to impr
 
 ### Step 4
 
-![Image](Step4_Rename.png);
+![Image](Step4_Rename.png)
 
 
 
 
 ### Step 5
 
-![Image](step5_gitclone.png);
+![Image](gitclone_proper.png)
+![Image](step5part2.png)
 
 
 
 ### Step 6
 
-![Image](step6_showFail.png);
+![Image](step6_showFail.png)
 
 
 
 ### Step 7
 
-![Image](step7_codeisFixed.png);
+![Image](step7_codeisFixed.png)
 
 ### Step 8 
 
-![Image](step8_NoFailure.png);
+![Image](step8_NoFailure.png)
 
 ### Step 9
 
-![Image](commit_lab4.png);
+![Image](commit_lab4.png)
 
-![Image](gitPush_finalstep.png);
+![Image](gitPush_finalstep.png)
