@@ -4,7 +4,7 @@ In this lab report for Lab 4 - Vim, we will go through a series of steps to impr
 
 
 &nbsp;
-### Step 4: Log into ieng6 
+## Step 4: Log into ieng6 
 
 &nbsp;
 
@@ -21,7 +21,7 @@ In this lab report for Lab 4 - Vim, we will go through a series of steps to impr
 
 &nbsp;
 
-### Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
+## Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 &nbsp;
 
 ![Image](gitclone.png)
@@ -35,7 +35,7 @@ In this lab report for Lab 4 - Vim, we will go through a series of steps to impr
 
 
 &nbsp;
-### Step 6: Run the tests, demonstrating that they fail
+## Step 6: Run the tests, demonstrating that they fail
 &nbsp;
 
 ![Image](step6_showFail.png)
@@ -48,7 +48,7 @@ In this lab report for Lab 4 - Vim, we will go through a series of steps to impr
 
 
 &nbsp;
-### Step 7: Edit the code file to fix the failing test
+## Step 7: Edit the code file to fix the failing test
 &nbsp;
 
 ![Image](step7_codeisFixed.png)
@@ -75,7 +75,7 @@ In this lab report for Lab 4 - Vim, we will go through a series of steps to impr
 
 
 &nbsp;
-### Step 9: Commit and push the resulting change to your Github account
+## Step 9: Commit and push the resulting change to your Github account
 &nbsp;
 
 
@@ -84,5 +84,23 @@ In this lab report for Lab 4 - Vim, we will go through a series of steps to impr
 ![Image](gitPush_finalstep.png)
 
 &nbsp;
+
+- To stage the file: `git <space> add <space> ListExamples.java` followed by `<enter>`.
+- The commit using the commit command,  commit command `git <space> commit <space> -m <space> "Lab Report 4 is complete"` followed by `<enter>`
+- Finally, to push the changes: `git <space> push followed by <enter>`.
+
+&nbsp;
+
+## Conclusion: 
+&nbsp;
+
+This detailed approach captures the essence of the tasks, including the interaction with both the shell and Vim, showcasing the practical skills applied during the lab session.
+
+&nbsp;
+
+
+
+
+**This is the end of the report**
 
 
